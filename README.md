@@ -1,8 +1,7 @@
 # Canadian Airline Reservation System
 The Airline Reservation System (ARS) is an android application (called Flight) that makes the flight booking process for airline travellers as easy and efficient as possible as it contains fare comparison capabilties, multiple airline schedules and other time and money saving features.
-<br />This is 
-
-<br /><br />How to run[Accept Test](https://github.com/Makiato1999/ARS-AirlineReservationSystem/blob/main/AcceptanceTest.md)
+<br />This was a group project for my winter 2022 term and the project was done in group of 5 members.
+<br />How to run, you can follow the guidelines<br />[Accept Test](https://github.com/Makiato1999/ARS-AirlineReservationSystem/blob/main/AcceptanceTest.md)
 <br /><br />We have three iterations
 ## Iteration 0 Documnetations
 * [Vision Statment](https://github.com/Makiato1999/ARS-AirlineReservationSystem/blob/main/Vision%20Statement.md)
