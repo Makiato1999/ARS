@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Flight</string>
+    <string name="departure_city_edit">Flying From</string>
+    <string name="arrival_city_edit">Flying To</string>
+    <string name="select_dates_edit">Dates</string>
+    <string name="traveller_options_txt">Travellers Options</string>
+    <string name="adult_checkbox">Adults</string>
+    <string name="children_checkbox">Children</string>
+    <string name="search_flights_bttn">Search Flights</string>
+    <string name="select_trip_type_switch">Round Trip</string>>
+</resources>

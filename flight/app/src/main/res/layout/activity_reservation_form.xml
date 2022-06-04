@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ReservationFormActivity">
+
+    <TextView
+        android:id="@+id/flight_info_txtview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="90dp"
+        android:text="Flight Summary For"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flight_info_txtview_id">
+
+        <TextView
+            android:id="@+id/dep_title_txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:paddingTop="5dp"
+            android:text="Departing Flight"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dep_time_txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:paddingStart="20dp"
+            android:text="Departure Time" />
+
+        <TextView
+            android:id="@+id/dep_city_txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:paddingLeft="20dp"
+            android:text="Departure City" />
+
+        <TextView
+            android:id="@+id/return_title_txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:paddingTop="15dp"
+            android:text="Returning Flight"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/return_time_txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:paddingLeft="20dp"
+            android:text="Return Time" />
+
+        <TextView
+            android:id="@+id/return_city_txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:paddingLeft="20dp"
+            android:text="Return City" />
+
+        <TextView
+            android:id="@+id/form_price_txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="C$"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/form_title_txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Reserve This Flight"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="300dp"
+        android:layout_height="118dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/form_title_txt_id">
+
+        <TextView
+            android:id="@+id/res_title_txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your information"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/form_name_edit_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/form_email_edit_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/form_save_bttn_id"
+        android:layout_width="125dp"
+        android:layout_height="55dp"
+        android:onClick="saveForm"
+        android:text="Save"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Git version/team-flight-4/flight/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Git version/team-flight-4/flight/app/src/main/res/layout/activity_rec_flights_activitiy.xml" value="0.1" />
+        <entry key="..\:/Git version/team-flight-4/flight/app/src/main/res/layout/activity_rec_flights_activity.xml" value="0.22554347826086957" />
+        <entry key="..\:/Git version/team-flight-4/flight/app/src/main/res/layout/activity_sandbox_layout.xml" value="0.1" />
+        <entry key="..\:/Git version/team-flight-4/flight/app/src/main/res/layout/activity_search_citycode.xml" value="0.1" />
+        <entry key="..\:/Git version/team-flight-4/flight/app/src/main/res/layout/recycler_flight_row.xml" value="0.25" />
+        <entry key="..\:/Programming/team-flight-4/flight/app/src/main/res/layout/activity_main.xml" value="0.44429347826086957" />
+        <entry key="..\:/Programming/team-flight-4/flight/app/src/main/res/layout/activity_rec_flights_activity.xml" value="0.44429347826086957" />
+        <entry key="..\:/Programming/team-flight-4/flight/app/src/main/res/layout/activity_reservation_form.xml" value="0.31354166666666666" />
+        <entry key="..\:/Programming/team-flight-4/flight/app/src/main/res/layout/activity_sandbox_layout.xml" value="0.44429347826086957" />
+        <entry key="..\:/Programming/team-flight-4/flight/app/src/main/res/layout/activity_search_citycode.xml" value="0.44429347826086957" />
+        <entry key="..\:/Programming/team-flight-4/flight/app/src/main/res/layout/recycler_flight_row.xml" value="0.44429347826086957" />
+        <entry key="..\:/Programming/team-flight-4/flight/app/src/main/res/layout/reservation_dialog.xml" value="0.31354166666666666" />
+        <entry key="..\:/Repos/team-flight-4/flight/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/developing/team-flight-4/flight/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/developing/team-flight-4/flight/app/src/main/res/layout/view_res_info.xml" value="0.1" />
+        <entry key="..\:/developing/team-flight-4/flight/app/src/main/res/layout/view_res_login_dialog.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_search_citycode.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
