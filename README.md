@@ -2,6 +2,8 @@
 The Airline Reservation System (ARS) is an android application (called Flight) that makes the flight booking process for airline travellers as easy and efficient as possible as it contains fare comparison capabilties, multiple airline schedules and other time and money saving features.
 <br />This is 
 
+<br /><br />How to run(https://github.com/Makiato1999/ARS-AirlineReservationSystem/blob/main/AcceptanceTest.md)
+
 ## Iteration 0 Documnetations
 * [Vision Statment](https://github.com/Makiato1999/ARS-AirlineReservationSystem/blob/main/Vision%20Statement.md)
 
