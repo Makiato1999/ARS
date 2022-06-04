@@ -3,7 +3,7 @@ The Airline Reservation System (ARS) is an android application (called Flight) t
 
 
 ## Iteration 0 Documnetations
-* [Vision Statment](https://code.cs.umanitoba.ca/winter-2022-a01/group-4/team-flight-4/-/blob/main/Vision%20Statement.md#vision-statment)
+* [Vision Statment](https://github.com/Makiato1999/ARS-AirlineReservationSystem/blob/main/Vision%20Statement.md)
 
 ## Iteration 1 Documentations 
 * [Architecture diagram](./ARCHITECTURE.md)
